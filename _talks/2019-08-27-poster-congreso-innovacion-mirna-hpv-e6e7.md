@@ -8,4 +8,6 @@ date: 2019-08-27
 location: "Bogotá, Colombia"
 ---
 
+Authors: González-Ramírez, M.I.
+
 Poster presentation on the in-silico identification of microRNAs that regulate the expression of HPV E6/E7 target proteins.
