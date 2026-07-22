@@ -18,7 +18,7 @@ baseurl                  : ""
 repository               : "migonzalezr/migonzalezr.github.io"
 
 author:
-  avatar             : "profile.png"
+  avatar             : "foto_medios.png"
   name               : "Martha González-Ramírez"
   pronouns           : "she/her"
   bio                : "PhD Candidate in Biomedical Informatics at Tulane University. Researching multi-omics integration and machine learning for osteoporosis and cancer biomarker discovery."
