@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 2"
+title: "Variability in Performance of Genetic-Enhanced DXA-BMD Prediction Models Across Diverse Ethnic and Geographic Populations: A Risk Prediction Study"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2024-plos-medicine-bmd-prediction
+excerpt: 'Evaluation of genetic-enhanced bone mineral density prediction models and their variability in performance across diverse ethnic and geographic populations.'
+date: 2024-08-01
+venue: 'PLOS Medicine'
+paperurl: 'https://doi.org/10.1371/journal.pmed.1004451'
+citation: 'Liu, Y., Meng, X.H., Wu, C., Su, K.J., Liu, A., Tian, Q., Zhao, L.J., Qiu, C., Luo, Z., González-Ramírez, M.I., Shen, H., Xiao, H.M., Deng, H.W. (2024). &quot;Variability in performance of genetic-enhanced DXA-BMD prediction models across diverse ethnic and geographic populations: A risk prediction study.&quot; <i>PLOS Medicine</i>. 21(8): e1004451.'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This multi-population study assessed how genetic-enhanced bone mineral density (BMD) prediction models perform across diverse ethnic and geographic groups, highlighting the need for population-aware approaches in osteoporosis risk prediction.
