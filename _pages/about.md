@@ -24,6 +24,8 @@ Research Interests
 * Machine learning for disease risk prediction
 * Translational oncology and cancer biomarkers
 * Osteoporosis genomics and bone mineral density
+* Transcriptomics (miRNAs and mRNAs)
+* GWAS and ancestry-aware genetic modeling
 * Grant writing and scientific communication
 
 Education
