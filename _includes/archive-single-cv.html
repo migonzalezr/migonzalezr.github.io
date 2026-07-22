@@ -12,6 +12,11 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% assign unpublished = false %}
+{% if post.status == "in preparation" or post.status == "submitted" or post.status == "under review" %}
+  {% assign unpublished = true %}
+{% endif %}
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <li>
@@ -45,6 +50,9 @@
         <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p>
       {% endif %}
     {% endif %}
+    {% if unpublished and post.authors %}
+      <p class="archive__item-excerpt" itemprop="description"><strong>Authors:</strong> {{ post.authors }}</p>
+    {% endif %}
     </li>
- </article>
+  </article>
 </div>
