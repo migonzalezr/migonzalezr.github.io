@@ -36,7 +36,15 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
+    {% if post.venue %}
+      {% if post.status == "in preparation" %}
+        <p class="archive__item-excerpt" itemprop="description">In preparation{% if post.venue and post.venue != "In preparation" %} for <i>{{ post.venue }}</i>{% endif %}</p>
+      {% elsif post.status == "submitted" or post.status == "under review" %}
+        <p class="archive__item-excerpt" itemprop="description">Submitted to <i>{{ post.venue }}</i>. Under peer review.</p>
+      {% else %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p>
+      {% endif %}
+    {% endif %}
     </li>
  </article>
 </div>
