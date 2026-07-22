@@ -8,4 +8,6 @@ date: 2019-05-27
 location: "Medellín, Colombia"
 ---
 
+Authors: <strong>González-Ramírez, M.I.</strong>, Sánchez, G.I.
+
 Oral presentation on target protein-regulatory microRNAs affected by HPV E6/E7 as biomarkers of high-grade preneoplastic cervical lesions.
