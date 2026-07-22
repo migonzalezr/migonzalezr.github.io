@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 3"
+title: "Integrated miRNA-mRNA Analyses of Triple-Negative Breast Cancer in Black and White Patients With or Without Obesity"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/2025-ijms-tnbc-mirna-mrna
+excerpt: 'Integrated miRNA-mRNA analysis of triple-negative breast cancer in Black and White patients, examining the role of obesity in molecular disease profiles. Joint first authorship.'
+date: 2025-09-01
+venue: 'International Journal of Molecular Sciences'
+paperurl: 'https://doi.org/10.3390/ijms26189101'
+citation: 'Hossain, F., González-Ramírez, M.I., Garai, J., Polania-Villanueva, D., Li, L., Nafees, F., Manirujjaman, M., Liu, B., Majumder, S., Wu, X.C., et al. (2025). &quot;Integrated miRNA-mRNA analyses of triple-negative breast cancer in Black and White patients with or without obesity.&quot; <i>International Journal of Molecular Sciences</i>. 26(9101): 1-20. (Joint first authorship).'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This study performed integrated miRNA-mRNA analyses to identify molecular signatures of triple-negative breast cancer across Black and White patients with and without obesity, contributing to a better understanding of health disparities in breast cancer biology.
