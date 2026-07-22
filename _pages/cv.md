@@ -13,12 +13,11 @@ Education
 ======
 * Ph.D. in Biomedical Informatics, Tulane University (expected 2028)
 * M.Sc. in Biomedical Sciences, University of Antioquia, Colombia (2020)
-  * Thesis: ["Cellular microRNAs Regulating Target Proteins of HPV E6 and E7 as Potential Biomarkers of High-Grade Preneoplastic Cervical Lesions"](https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/9ce568b9-a142-49cb-8a8c-970d80eed913/content) — awarded Magna Cum Laude
+* Thesis: ["Cellular microRNAs Regulating Target Proteins of HPV E6 and E7 as Potential Biomarkers of High-Grade Preneoplastic Cervical Lesions"](https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/9ce568b9-a142-49cb-8a8c-970d80eed913/content) — awarded Magna Cum Laude
 * B.Eng. in Biological Engineering, National University of Colombia (2017)
 
 Honors, Awards, and Scholarships
 ======
-* Tuition and Housing Scholarship & Travel Award, Bruce Weir Summer Institute in Statistical Genetics, Georgia Institute of Technology, Atlanta, USA (2026)
 * Graduate and Professional Student Mentorship Program Award, Tulane University, USA (2025)
 * UK Biobank Transitional Credit Award for RAP Computational Access, Wellcome, United Kingdom (2025)
 * Tuition and Housing Scholarship & Travel Award, Bruce Weir Summer Institute in Statistical Genetics, Georgia Institute of Technology, Atlanta, USA (2024)
@@ -44,9 +43,9 @@ Research Experience
 
 Teaching Experience
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul>{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
 
 Skills
 ======
@@ -59,15 +58,15 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+<ul>{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}</ul>
 
 Professional Organizations
 ======
