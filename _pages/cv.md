@@ -44,9 +44,9 @@ Research Experience
 
 Teaching Experience
 ======
-* Teaching Assistant, Department of Cell and Molecular Biology, Tulane University, New Orleans, LA (2023 - 2024)
-* Graduate Teaching Assistant, University of Antioquia, School of Medicine, Medellín, Colombia (2018)
-* Secondary School Teacher, Antioquia Institute, Medellín, Colombia (2017)
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 Skills
 ======
@@ -68,13 +68,7 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+
 Professional Organizations
 ======
 * American Association for Cancer Research (AACR), US - Associate Member, 2019-present
@@ -82,3 +76,40 @@ Professional Organizations
 * American Society for Bone and Mineral Research (ASBMR), US - Member, 2025-present
 * American Society of Human Genetics (ASHG), USA - Member, 2025-present
 * Colombian Ministry of Science, Technology, and Innovation (MinCiencias) - Recognized Junior Researcher, 2022-present
+
+Courses, Seminars, and Webinars Attended
+======
+* Analysis of Amplicons with DADA2 in R, ININAM, Lima, Perú (2024, 8h)
+* Shotgun Metagenomics in KBASE, ININAM, Lima, Perú (2024, 8h)
+* Epigenetics and Gene Regulation, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2024, 20h)
+* Gene Expression and Single Cell Genomics, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2024, 20h)
+* Association Mapping, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2024, 20h)
+* Fundamentals in Deep Learning (Workshop), NVIDIA, USA (2024, 8h)
+* Strategy Writing and Publishing Scientific Articles in High-Impact Journals, CCBB, UdeA, Medellín, Colombia (2023, 24h)
+* Conflict of Interest (Training), CITI Program (2023, 4h)
+* Biomedical Research Investigators and Key Personnel (Training), CITI Program (2023, 4h)
+* Patents, Searching Technological Information (Workshop), CCBB, UdeA, Medellín, Colombia (2022, 8h)
+* Development and Utility of Risk Models for the Prevention of Breast Cancer, Infection and Cancer Group & School of Public Health, UdeA, Medellín, Colombia (2022, 96h)
+* Good Clinical Practice (Training), NIDA Clinical Trials Network (2021, 8h)
+* Use of R for Transcriptomic and RNAseq Studies, University of Valle, Cali, Colombia (2019, 48h)
+* Summer School in Global Health, University Medical Center Groningen, NL (2019, 60h)
+* Epigenetics and CRISPR/Cas9 (Workshop), CCBB, UdeA, Medellín, Colombia (2019, 10h)
+* International Academic Seminar on Precision Medicine, CES, Medellín, Colombia (2018, 8h)
+* Mede-Genomics (Symposium), UdeA, Medellín, Colombia (2018, 8h)
+* The Safety of the Human Papillomavirus Vaccine, Catalan Institute of Oncology (2018, 12h)
+* Protecting Human Research Participants (Training), National Institutes of Health (2018, 8h)
+* VIII Basic Biomedical Sciences (Seminar), UdeA, Medellín, Colombia (2017, 12h)
+* Gynecology and Obstetrics (Seminar), UdeA, Medellín, Colombia (2017, 4h)
+* VII Basic Biomedical Sciences (Seminar), UdeA, Medellín, Colombia (2016, 16h)
+* Gender Equity (Seminar), Mayor's Office of Medellín, Colombia (2016, 8h)
+* Clinical Understanding of the Genome (Seminar), Medellín, Colombia (2016, 4h)
+* Update on Diseases and microRNAs (Seminar), UdeA, Medellín, Colombia (2016, 10h)
+* V Cancer Research Conference (Seminar), Instituto Nacional de Cancerología, Cali, Colombia (2016, 18h)
+* University of Groningen-UdeA PhD Sandwich Program (Symposium), CCBB, Medellín, Colombia (2016, 8h)
+* Metabolomics Applied to Medicine, National University of Colombia, Medellín, Colombia (2016, 52h)
+* Molecular Markers, National University of Colombia, Medellín, Colombia (2016, 64h)
+* Bioinformatics Applied to Medicine, UdeA, Medellín, Colombia (2016, 64h)
+* Topics of Enzymology, National University of Colombia, Medellín, Colombia (2015, 64h)
+* Immunology, National University of Colombia, Medellín, Colombia (2015, 64h)
+* Methods of Separation, National University of Colombia, Medellín, Colombia (2015, 64h)
+* Open to participating in future courses, workshops, and training opportunities in AI applied to biomedicine, machine learning, multi-omics, and bioinformatics
