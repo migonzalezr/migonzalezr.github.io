@@ -11,6 +11,26 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
+Invited Talks
+======
+{% assign invited_talks = site.talks | where:"type","Invited Talk" %}
+{% for post in invited_talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
+Conferences
+======
+
+Oral Presentations
+------
+{% assign oral_talks = site.talks | where:"type","Oral Presentation" %}
+{% for post in oral_talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
+Poster Presentations
+------
+{% assign poster_talks = site.talks | where:"type","Poster Presentation" %}
+{% for post in poster_talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
