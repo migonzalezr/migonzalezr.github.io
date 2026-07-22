@@ -7,6 +7,11 @@ redirect_from:
   - /about.html
 ---
 
+<div style="background-color:#fff8e1; border-left:4px solid #f0ad4e; padding:15px 20px; margin-bottom:25px; border-radius:4px;">
+<strong>👋 Welcome, and thanks for visiting!</strong><br>
+This site is still a work in progress — I'm reviewing and refining the content, and it was built with the help of an AI agent, so a few details may still be getting polished. If you'd like to get in touch or leave a message, feel free to <a href="mailto:migonzalezr23@gmail.com?subject=Hello%20from%20your%20website">email me here</a>!
+</div>
+
 About Me
 ======
 I am a PhD Candidate in Biomedical Informatics at the Division of Biomedical Informatics & Genomics, Tulane University, New Orleans. My research integrates multi-omics data — genomics, metagenomics, and clinical variables — with machine learning to build interpretable, clinically actionable models for osteoporosis and bone mineral density prediction.
@@ -29,7 +34,6 @@ Education
 
 Selected Recognition
 ======
-* ASBMR Young Investigator Annual Meeting Travel Grant (2026)
 * Fellowship Award, Biomedical Sciences Program, Tulane University School of Medicine (2023)
 * Abel Tasman Talent Program (ATTP) Scholarship, University Medical Center Groningen (2019)
 * National Young Women Talent Prize in STEM, Medellín, Colombia (2016)
