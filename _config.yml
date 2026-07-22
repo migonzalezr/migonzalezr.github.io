@@ -3,12 +3,12 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default"
 title                    : "Martha González-Ramírez"
 title_separator          : "-"
 name                     : &name "Martha González-Ramírez"
@@ -18,66 +18,67 @@ baseurl                  : ""
 repository               : "migonzalezr/migonzalezr.github.io"
 
 author:
-  avatar           : "profile.png"
-  name             : "Martha González-Ramírez"
-  pronouns         : "she/her"
-  bio              : "PhD Candidate in Biomedical Informatics at Tulane University. Researching multi-omics integration and machine learning for osteoporosis and cancer biomarker discovery."
-  location         : "New Orleans, LA, USA"
-  employer         : "Tulane University"
-  uri              :
-  email            : "migonzalezr23@gmail.com"
+  avatar             : "profile.png"
+  name               : "Martha González-Ramírez"
+  pronouns           : "she/her"
+  bio                : "PhD Candidate in Biomedical Informatics at Tulane University. Researching multi-omics integration and machine learning for osteoporosis and cancer biomarker discovery."
+  location           : "New Orleans, LA, USA"
+  employer           : "Tulane University"
+  uri                :
+  email              : "migonzalezr23@gmail.com"
+  booking            : "https://bookings.cloud.microsoft/bookwithme/user/7e2ff891b4864fda80ee5b7027836560%40tulane.edu?anonymous&ismsaljsauthenabled"
 
-  academia         :
-  arxiv            :
-  googlescholar    : "https://scholar.google.com/citations?user=5TNCP3QAAAAJ&hl=es&oi=sra"
-  inspire-hep      :
-  impactstory      :
-  orcid            : "https://orcid.org/0000-0001-9199-1855"
-  semantic         :
-  ssrn             :
-  pubmed           :
-  researchgate     :
-  scopus           :
-  zotero           :
+  academia           :
+  arxiv              :
+  googlescholar      : "https://scholar.google.com/citations?user=5TNCP3QAAAAJ&hl=es&oi=sra"
+  inspire-hep        :
+  impactstory        :
+  orcid              : "https://orcid.org/0000-0001-9199-1855"
+  semantic           :
+  ssrn               :
+  pubmed             :
+  researchgate       :
+  scopus             :
+  zotero             :
 
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  github           : "migonzalezr"
-  kaggle           :
-  stackoverflow    :
+  bitbucket          :
+  codepen            :
+  dribbble           :
+  github             : "migonzalezr"
+  kaggle             :
+  stackoverflow      :
 
-  artstation       :
-  bluesky          :
-  facebook         :
-  flickr           :
-  foursquare       :
-  goodreads        :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : "migonzalezr"
-  mastodon         :
-  medium           :
-  pinterest        :
-  soundcloud       :
-  steam            :
-  telegram         :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  wikipedia        :
-  xing             :
-  youtube          :
-  zhihu            :
+  artstation         :
+  bluesky            :
+  facebook           :
+  flickr             :
+  foursquare         :
+  goodreads          :
+  google_plus        :
+  keybase            :
+  instagram          :
+  lastfm             :
+  linkedin           : "migonzalezr"
+  mastodon           :
+  medium             :
+  pinterest          :
+  soundcloud         :
+  steam              :
+  telegram           :
+  tumblr             :
+  twitter            :
+  vine               :
+  weibo              :
+  wikipedia          :
+  xing               :
+  youtube            :
+  zhihu              :
 
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
@@ -92,35 +93,35 @@ comments:
   disqus:
     shortname            :
   discourse:
-    server               :
+    server                 :
   facebook:
     appid                :
     num_posts            :
     colorscheme          :
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601"
-atom_feed:
-  hide                   : false
-  path                   :
+  staticman:
+    allowedFields        : ['name', 'email', 'url', 'message']
+    branch               : "gh-pages"
+    commitMessage        : "New comment."
+    filename             : comment-{@timestamp}
+    format               : "yml"
+    moderation           : true
+    path                 : "_data/comments/{options.slug}"
+    requiredFields       : ['name', 'email', 'message']
+    transforms:
+      email              : "md5"
+    generatedFields:
+      date:
+        type             : "date"
+        options:
+          format         : "iso8601"
+  atom_feed:
+    hide                 : false
+    path                 :
 
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+google_site_verification  :
+bing_site_verification    :
+alexa_site_verification   :
+yandex_site_verification  :
 
 twitter:
   username               : &twitter
@@ -136,7 +137,7 @@ social:
   links:
 
 analytics:
-  provider               :  "false"
+  provider               : "false"
   google:
     tracking_id          :
 
