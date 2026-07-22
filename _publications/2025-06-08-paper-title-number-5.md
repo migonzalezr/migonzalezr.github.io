@@ -9,4 +9,6 @@ venue: 'Communications Medicine'
 status: 'submitted'
 citation: 'Jiang, L., Gonzalez-Ramirez, M.I., Su, K.J., Zhang, X., Liu, A., Qiu, C., Luo, Z., Tian, Q., Huang, L., Zhang, C., Shen, H., Deng, H.W. Robust and Interpretable Metagenomic Modeling Through Structure-Aware Multi-View Learning and Attribution-Guided Biological Insight. Submitted to <i>Communications Medicine</i>. Under peer review.'
 ---
+Authors: Jiang, L., González-Ramírez, M.I., Su, K.J., Zhang, X., Liu, A., Qiu, C., Luo, Z., Tian, Q., Huang, L., Zhang, C., Shen, H., Deng, H.W.
+
 This manuscript introduces a structure-aware, multi-view machine learning framework for metagenomic modeling that improves both predictive robustness and biological interpretability, with applications to bone mineral density prediction.
