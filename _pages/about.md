@@ -42,4 +42,4 @@ Selected Recognition
 
 Get in Touch
 ======
-I welcome collaboration opportunities in computational biology, multi-omics research, and precision medicine. Feel free to reach out via [email](mailto:migonzalezr23@gmail.com), [LinkedIn](https://www.linkedin.com/in/migonzalezr), or [Google Scholar](https://scholar.google.com/citations?user=5TNCP3QAAAAJ&hl=es&oi=sra).
+I welcome collaboration opportunities in computational medicine prediction, multi-omics research, and precision medicine. Please reach out only via [email](mailto:migonzalezr23@gmail.com) or [LinkedIn](https://www.linkedin.com/in/migonzalezr), or feel free to [book a meeting directly](https://bookings.cloud.microsoft/bookwithme/user/f77f1615149049298cc38f687a23d354%40tulane.edu?anonymous&ismsaljsauthenabled) so we can meet each other.
