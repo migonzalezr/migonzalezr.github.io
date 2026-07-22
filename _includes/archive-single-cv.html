@@ -44,7 +44,9 @@
     {% if post.venue %}
       {% if post.status == "in preparation" %}
         <p class="archive__item-excerpt" itemprop="description">In preparation{% if post.venue and post.venue != "In preparation" %} for <i>{{ post.venue }}</i>{% endif %}</p>
-      {% elsif post.status == "submitted" or post.status == "under review" %}
+      {% elsif post.status == "submitted" %}
+        <p class="archive__item-excerpt" itemprop="description">Submitted to <i>{{ post.venue }}</i>.</p>
+      {% elsif post.status == "under review" %}
         <p class="archive__item-excerpt" itemprop="description">Submitted to <i>{{ post.venue }}</i>. Under peer review.</p>
       {% else %}
         <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p>
@@ -54,5 +56,5 @@
       <p class="archive__item-excerpt" itemprop="description"><strong>Authors:</strong> {{ post.authors }}</p>
     {% endif %}
     </li>
-  </article>
+ </article>
 </div>
