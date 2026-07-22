@@ -8,4 +8,6 @@ date: 2015-05-27
 location: "Bogotá, Colombia"
 ---
 
+Authors: Ruiz, D., Mesa-Medina, M., González-Ramírez, M., Gutiérrez-Sánchez, P., Marín-Montoya, M.
+
 Poster presentation on the detection of Potato Virus X and Potato Leafroll Virus in potato tubers in Antioquia using ELISA and RT-qPCR.
