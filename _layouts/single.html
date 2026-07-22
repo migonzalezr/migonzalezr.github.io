@@ -44,7 +44,9 @@ layout: default
           {% elsif page.collection == 'publications' %}
             {% if page.status == "in preparation" %}
               <p>In preparation{% if page.venue and page.venue != "In preparation" %} for <i>{{ page.venue }}</i>{% endif %}</p>
-            {% elsif page.status == "submitted" or page.status == "under review" %}
+            {% elsif page.status == "submitted" %}
+              <p>Submitted to <i>{{ page.venue }}</i>.</p>
+            {% elsif page.status == "under review" %}
               <p>Submitted to <i>{{ page.venue }}</i>. Under peer review.</p>
             {% elsif page.venue and page.date %}
               <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
