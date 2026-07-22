@@ -1,13 +1,11 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Robust and Interpretable Metagenomic Modeling Through Structure-Aware Multi-View Learning and Attribution-Guided Biological Insight"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: manuscripts
+permalink: /publication/2026-communications-medicine-metagenomic-modeling
+excerpt: 'A structure-aware, multi-view deep learning framework for robust and interpretable metagenomic modeling of bone mineral density. Submitted to Communications Medicine, under peer review.'
+date: 2026-01-01
+venue: 'Communications Medicine (under peer review)'
+citation: 'Jiang, L., Gonzalez-Ramirez, M.I., Su, K.J., Zhang, X., Liu, A., Qiu, C., Luo, Z., Tian, Q., Huang, L., Zhang, C., Shen, H., Deng, H.W. Robust and Interpretable Metagenomic Modeling Through Structure-Aware Multi-View Learning and Attribution-Guided Biological Insight. Submitted to <i>Communications Medicine</i>. Under peer review.'
 ---
-
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+This manuscript introduces a structure-aware, multi-view machine learning framework for metagenomic modeling that improves both predictive robustness and biological interpretability, with applications to bone mineral density prediction.
