@@ -8,4 +8,6 @@ date: 2020-06-22
 location: "San Diego, CA, USA"
 ---
 
+Authors: González-Ramírez, M.I., Garai, J., Zabaleta, J., Sánchez, G.I.
+
 Poster presentation on microRNA expression analysis in high-risk HPV-positive FFPE tissues for the detection of cervical disease.
