@@ -8,4 +8,6 @@ date: 2018-05-28
 location: "Medellín, Colombia"
 ---
 
+Authors: <strong>González-Ramírez, M.I.</strong>, Sánchez, G.I.
+
 Oral presentation on microRNAs deregulated by HPV E6 and E7 as biomarkers of high-grade preneoplastic cervical lesions.
