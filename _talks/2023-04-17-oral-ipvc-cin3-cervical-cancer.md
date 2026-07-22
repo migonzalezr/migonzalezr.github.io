@@ -8,4 +8,6 @@ date: 2023-04-17
 location: "Washington, DC, USA"
 ---
 
+Authors: <strong>González-Ramírez, M.I.</strong>, Florez, J.J., Agudelo, S., Agudelo, M., Li, L., Garai, J., Zabaleta, J., Sánchez, G.I.
+
 Oral presentation on a genome-wide approach to identifying microRNAs that predict the presence of CIN3 and cervical cancer in HPV-positive women.
