@@ -8,4 +8,6 @@ date: 2024-04-05
 location: "San Diego, CA, USA"
 ---
 
+Authors: Hossain, F., González-Ramírez, M.I., Garai, J., Wu, X.C., Hicks, C., Del Valle, L., Ochoa, A., Danos, D., Miele, L., Zabaleta, J.
+
 Poster presentation on the identification of miRNA related to triple-negative breast cancer in African and European American women with obesity.
