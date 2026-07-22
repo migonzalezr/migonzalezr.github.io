@@ -8,4 +8,6 @@ date: 2022-04-08
 location: "New Orleans, LA, USA"
 ---
 
+Authors: González-Ramírez, M.I., Agudelo, S., Agudelo, M.C., Garai, J., Li, L., Orozco-Castaño, C.A., Zabaleta, J., Sánchez, G.I.
+
 Poster presentation on microRNA expression analysis in high-risk HPV-positive cervical scrapes for the detection of cervical disease.
