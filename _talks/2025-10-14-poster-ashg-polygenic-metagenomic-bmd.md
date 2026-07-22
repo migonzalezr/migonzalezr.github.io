@@ -8,6 +8,6 @@ date: 2025-10-14
 location: "Boston, MA, USA"
 ---
 
-Authors: González-Ramírez, M.I., et al.
+Authors: <strong>González-Ramírez, M.I.</strong>, et al.
 
 Poster presentation on an ensemble machine learning approach integrating polygenic and metagenomic risk scores for bone mineral density prediction, with an emphasis on model interpretability.
