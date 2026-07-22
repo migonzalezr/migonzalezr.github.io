@@ -8,4 +8,6 @@ date: 2025-09-06
 location: "Seattle, WA, USA"
 ---
 
+Authors: Pan, Z., Gong, Y., Liang, B., Wu, D., Lin, W., Hou, Y., González-Ramírez, M.I., Shen, H.
+
 Poster presentation on single-cell transcriptomics revealing osteoblast-adipocyte imbalance and lineage shifts in osteoporosis.
