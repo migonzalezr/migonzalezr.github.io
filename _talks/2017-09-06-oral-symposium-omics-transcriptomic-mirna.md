@@ -8,4 +8,6 @@ date: 2017-09-06
 location: "Cali, Colombia"
 ---
 
+Authors: <strong>González-Ramírez, M.I.</strong>, Sánchez, G.I.
+
 Oral presentation on transcriptomic analysis of microRNAs in HPV-infected women for cervical cancer risk prediction.
