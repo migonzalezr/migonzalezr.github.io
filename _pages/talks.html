@@ -11,25 +11,21 @@ author_profile: true
 
 {% endif %}
 
-Invited Talks
-======
+<h2>Invited Talks</h2>
 {% assign invited_talks = site.talks | where:"type","Invited Talk" %}
 {% for post in invited_talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
 
-Conferences
-======
+<h2>Conferences</h2>
 
-Oral Presentations
-------
+<h3>Oral Presentations</h3>
 {% assign oral_talks = site.talks | where:"type","Oral Presentation" %}
 {% for post in oral_talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
 
-Poster Presentations
-------
+<h3>Poster Presentations</h3>
 {% assign poster_talks = site.talks | where:"type","Poster Presentation" %}
 {% for post in poster_talks reversed %}
   {% include archive-single-talk.html %}
