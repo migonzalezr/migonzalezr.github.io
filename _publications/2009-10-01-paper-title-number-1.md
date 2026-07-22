@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "miRNAs Signature as Potential Biomarkers for Cervical Precancerous Lesions in Human Papillomavirus Positive Women"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2023-scientific-reports-mirna-cervical
+excerpt: 'Identification of a microRNA signature as a potential biomarker panel for detecting cervical precancerous lesions in HPV-positive women.'
+date: 2023-01-01
+venue: 'Scientific Reports'
+paperurl: 'https://doi.org/10.1038/s41598-023-36421-9'
+citation: 'González-Ramírez, M.I., Cardona, Y.T., Agudelo, M.C., López, C., Florez-Acosta, J.J., Agudelo-Gamboa, S., Garai, J., Li, L., Orozco-Castaño, C.A., Zabaleta, J., Sánchez, G.I. (2023). &quot;miRNAs signature as potential biomarkers for cervical precancerous lesions in human papillomavirus positive women.&quot; <i>Scientific Reports</i>. 13(9822): 1-13.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This study identified a microRNA expression signature with potential as a biomarker panel for the detection of cervical precancerous lesions in HPV-positive women, contributing to earlier and more precise cervical cancer screening strategies.
