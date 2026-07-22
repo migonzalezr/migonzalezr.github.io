@@ -8,6 +8,6 @@ date: 2019-06-03
 location: "Groningen, The Netherlands"
 ---
 
-Authors: González-Ramírez, M.I.
+Authors: <strong>González-Ramírez, M.I.</strong>
 
 Poster presentation on the in-silico identification of microRNAs regulating HPV E6/E7 targets and their availability in cervical exfoliates.
