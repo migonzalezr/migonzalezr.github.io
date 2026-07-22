@@ -8,4 +8,6 @@ date: 2017-10-26
 location: "Medellín, Colombia"
 ---
 
+Authors: <strong>González-Ramírez, M.I.</strong>, Sánchez, G.I.
+
 Oral presentation on transcriptomics as a fundamental tool for differential expression analysis of microRNAs in HPV-infected women.
