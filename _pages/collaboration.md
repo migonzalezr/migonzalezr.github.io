@@ -7,54 +7,57 @@ author_profile: true
 
 ## Research Collaboration
 
-### My Research Expertise & Capabilities:
+### My Research Expertise:
 
-I specialize in **multi-omics data integration and machine learning** with applications in precision medicine and biomarker discovery. My research focus includes:
+I specialize in **genomics, machine learning, and computational biology** with a focus on precision medicine and biomarker discovery. My specific areas of expertise include:
 
-- **Multi-omics Integration**: Developing computational pipelines to integrate genomic, metagenomic, and clinical data for comprehensive biological insights
-- **Machine Learning in Biomedical Research**: Applying advanced ML algorithms for pattern recognition, predictive modeling, and biomarker identification
-- **Precision Medicine Applications**: Using data-driven approaches to predict disease risk, treatment response, and patient outcomes
-- **Cancer & Bone Health Research**: Specialized expertise in identifying molecular biomarkers for osteoporosis and cancer risk assessment
-- **Data Analysis & Interpretation**: Advanced statistical methods, dimensionality reduction, and visualization of complex biological datasets
-- **Collaborative Research Design**: Designing studies that balance scientific rigor with real-world applicability and equity considerations
-- **Equitable Research Practices**: Ensuring diverse representation in research studies and making findings accessible across populations
-
-**Research Interests**: My work bridges academic research with community health impact, particularly focusing on precision medicine applications that reach underrepresented populations.
+- **Polygenic Risk Scores (PRS)**: Designing and validating polygenic risk models for complex disease prediction and risk stratification
+- **Genome-Wide Association Studies (GWAS)**: Statistical analysis, interpretation, and clinical application of GWAS findings
+- **Machine Learning in Genomics**: Developing predictive models using advanced ML algorithms for biomarker identification and patient stratification
+- **Multi-omics Integration**: Integrating genomic, metagenomic, transcriptomic, and clinical data for comprehensive biological insights
+- **Ancestry-Aware Methods**: Ensuring equitable and accurate analyses across diverse populations with attention to ancestry and population structure
+- **Metagenomics Analysis**: Processing and interpreting microbial genomic data for disease association studies
+- **Polygenic Scores & Risk Models**: Creating and implementing disease risk prediction models in clinical and research contexts
+- **Study Design & Implementation**: Designing robust research protocols with emphasis on methodological rigor and population diversity
+- **Grant Writing**: Developing competitive research proposals for funding agencies
+- **Scientific Writing**: Manuscript preparation, data visualization, and publication strategies in high-impact journals
+- **Conference Participation**: Presenting research at major scientific conferences and networking with leading researchers
 
 ---
 
 ## Academic Collaboration
 
-### Looking for research or educational partnerships?
+### Educational & Institutional Partnerships:
 
-I'm interested in collaborating on:
+I'm available for academic collaborations including:
 
-- **Joint Research Projects**: Studies in genomics, machine learning applications, biomarker discovery, and precision medicine
-- **Educational Initiatives**: Co-developing programs in biomedical informatics, data science, and computational biology
-- **Outreach Programs**: Connecting your institution with underserved communities through scientific engagement and research mentorship
-- **Mentorship Networks**: Building platforms to support early-career scientists and graduate students in STEM fields
-- **Workshops & Seminars**: Delivering specialized talks on research methodology, data analysis, and scientific communication
-- **Diversity & Inclusion in Research**: Designing and implementing programs to increase representation in STEM research
+- **Secondary Education Partnerships**: Collaborating with high schools and educational institutions on STEM outreach, research education, and career mentorship
+- **Adjunct Professor/Lecturer**: Teaching specialized courses in biomedical informatics, genomics, machine learning, and research methods
+- **Research Assistant Supervision**: Mentoring and training undergraduate and graduate students in genomics research
+- **Curriculum Development**: Co-designing science curricula that integrate research, equity, and community engagement
+- **Educational Seminars & Workshops**: Delivering lectures on genomics, data science, research methodology, and scientific communication
+- **Student Mentorship Programs**: Guiding early-career scientists from diverse backgrounds toward successful research careers
 
 ---
 
 ## Growing Your Team or Institution?
 
-### If you're building, scaling, or transforming:
+### If you're building or scaling your research programs:
 
 I can support with:
 
-- **Program Design & Implementation**: Creating sustainable, measurable outreach and education initiatives rooted in research excellence
-- **Strategic Leadership**: Visioning and planning for research impact, innovation, and community engagement
-- **Team Building & Mentorship**: Recruiting, developing, and retaining talented scientists and educators
-- **Community Partnerships**: Establishing authentic relationships with underserved populations based on trust and equity
-- **Capacity Building**: Training teams in scientific communication, inclusive mentorship, research ethics, and community engagement
-- **Impact Measurement**: Designing evaluation frameworks to assess research outcomes, reach, and long-term societal impact
+- **Program Design & Implementation**: Creating sustainable research initiatives and translational pipelines
+- **Strategic Research Leadership**: Visioning, planning, and leading research direction and innovation
+- **Team Building & Mentorship**: Recruiting and developing talented researchers and educators
+- **Research Infrastructure**: Establishing data analysis workflows, computational platforms, and lab operations
+- **Community & Institutional Partnerships**: Building bridges between research institutions and communities
+- **Capacity Building**: Training teams in cutting-edge methods, bioinformatics, and research excellence
+- **Impact Measurement**: Designing frameworks to evaluate research output, reach, and real-world impact
 
 ---
 
 ## Let's Connect
 
-I'm open to collaborations that align with my passion for equitable science, innovation, and developing the next generation of researchers. Whether you represent an academic institution, research organization, healthcare system, or community-focused initiative, I'd love to explore how we can work together.
+I'm open to meaningful research collaborations and academic partnerships that align with my passion for rigorous science, innovation, and equitable research practices. Whether you're an academic institution, research organization, educational initiative, or healthcare system, I'd love to explore how we can work together.
 
-**Interested in partnering?** Feel free to reach out via [email](mailto:migonzalezr23@gmail.com) with your ideas and how you envision collaboration.
+**Interested in collaborating?** Feel free to reach out via [email](mailto:migonzalezr23@gmail.com) with your ideas and vision for partnership.
