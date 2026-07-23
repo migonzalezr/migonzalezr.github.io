@@ -66,7 +66,7 @@ Skills
 * MATLAB, SPSS
 
 **Bioinformatics & Genomics Tools**
-* Genome Analysis: PLINK, PLINK2, GCTA, LDpred, STAR, HISAT2, HTSeq, featureCounts, SAMtools, BCFtools, VCFtools
+* Genome Analysis: PLINK, GCTA, LDpred, STAR, HISAT2, HTSeq, featureCounts, SAMtools, BCFtools, VCFtools
 * Expression Analysis: DESeq2, edgeR, limma
 * Functional Analysis: BayesPrism, Cytoscape, QIIME2, MetaboAnalyst
 * Quality Control: Cutadapt, fastqc
