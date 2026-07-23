@@ -49,18 +49,46 @@ Teaching Experience
 
 Skills
 ======
-* Biomedical Informatics, Multi-omics Data Integration, Omics Risk Scores, Machine Learning
-* Translational Oncology, GWAS, High-performance and Cloud Computing
-* Grant Writing & Scientific Reporting, Scientific Publishing & Peer Review, Project Management, Mentorship & Training
-* R (tidyverse, DESeq2, MICE, edgeR), Python (pandas, NumPy, scikit-learn, TensorFlow, Keras, PyTorch), MATLAB, SPSS
-* PLINK, PLINK2, GCTA, BayesPrism, Cytoscape, LDpred, STAR, Cutadapt, HISAT2, HTSeq, featureCounts, edgeR, limma, SAMtools, BCFtools, VCFtools, QIIME2, MetaboAnalyst
-* AWS SageMaker, RAP UK Biobank platform, JupyterLab/Colab, HPC clusters (SLURM, LONI, Cypress)
+
+**Research & Computational Methods**
+* Biomedical Informatics, Computational Medicine, Multi-omics Data Integration
+* Genome-Wide Association Studies (GWAS), Polygenic Risk Scores, Ancestry-Aware Methods
+* Machine Learning & Predictive Modeling, Precision Medicine
+* High-Performance and Cloud Computing, Data Analysis & Visualization
+
+**Professional Skills**
+* Grant Writing & Research Proposal Development, Scientific Publishing & Peer Review
+* Project Management, Mentorship & Training, Scientific Communication
+
+**Programming Languages & Data Science**
+* R: tidyverse, DESeq2, MICE, edgeR, limma, ggplot2
+* Python: pandas, NumPy, scikit-learn, TensorFlow, Keras, PyTorch
+* MATLAB, SPSS
+
+**Bioinformatics & Genomics Tools**
+* Genome Analysis: PLINK, PLINK2, GCTA, LDpred, STAR, HISAT2, HTSeq, featureCounts, SAMtools, BCFtools, VCFtools
+* Expression Analysis: DESeq2, edgeR, limma
+* Functional Analysis: BayesPrism, Cytoscape, QIIME2, MetaboAnalyst
+* Quality Control: Cutadapt, fastqc
+
+**Cloud & Computing Platforms**
+* AWS: SageMaker, Trusted Research Environments (TREs)
+* UK Biobank: RAP platform (DNAnexus)
+* High-Performance Computing: SLURM, LONI, Cypress clusters
+* Development Environments: JupyterLab, Google Colab, Anaconda
 
 Publications
 ======
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
+
+Peer Review
+======
+* Metabolism (Elsevier). ISSN: 1532-8600 — 1 paper reviewed (2025)
+* Cancer Research Journal (SciencesPG). ISSN: 2330-8214 — 2 papers reviewed (2025-2026)
+* Gene Reports (Elsevier). ISSN: 2452-0144 — 1 paper reviewed (2021)
+* Ciencia e Innovación en Salud. ISSN: 2344-8636 — 1 paper reviewed (2021)
 
 Talks
 ======
@@ -78,6 +106,9 @@ Professional Organizations
 
 Courses, Seminars, and Webinars Attended
 ======
+* AI/ML for Genetics, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2026, 20h)
+* Whole Genome Sequence Analysis, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2026, 20h)
+* Regression and Regularization, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2026, 20h)
 * Analysis of Amplicons with DADA2 in R, ININAM, Lima, Perú (2024, 8h)
 * Shotgun Metagenomics in KBASE, ININAM, Lima, Perú (2024, 8h)
 * Epigenetics and Gene Regulation, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2024, 20h)
@@ -98,17 +129,3 @@ Courses, Seminars, and Webinars Attended
 * The Safety of the Human Papillomavirus Vaccine, Catalan Institute of Oncology (2018, 12h)
 * Protecting Human Research Participants (Training), National Institutes of Health (2018, 8h)
 * VIII Basic Biomedical Sciences (Seminar), UdeA, Medellín, Colombia (2017, 12h)
-* Gynecology and Obstetrics (Seminar), UdeA, Medellín, Colombia (2017, 4h)
-* VII Basic Biomedical Sciences (Seminar), UdeA, Medellín, Colombia (2016, 16h)
-* Gender Equity (Seminar), Mayor's Office of Medellín, Colombia (2016, 8h)
-* Clinical Understanding of the Genome (Seminar), Medellín, Colombia (2016, 4h)
-* Update on Diseases and microRNAs (Seminar), UdeA, Medellín, Colombia (2016, 10h)
-* V Cancer Research Conference (Seminar), Instituto Nacional de Cancerología, Cali, Colombia (2016, 18h)
-* University of Groningen-UdeA PhD Sandwich Program (Symposium), CCBB, Medellín, Colombia (2016, 8h)
-* Metabolomics Applied to Medicine, National University of Colombia, Medellín, Colombia (2016, 52h)
-* Molecular Markers, National University of Colombia, Medellín, Colombia (2016, 64h)
-* Bioinformatics Applied to Medicine, UdeA, Medellín, Colombia (2016, 64h)
-* Topics of Enzymology, National University of Colombia, Medellín, Colombia (2015, 64h)
-* Immunology, National University of Colombia, Medellín, Colombia (2015, 64h)
-* Methods of Separation, National University of Colombia, Medellín, Colombia (2015, 64h)
-* Open to participating in future courses, workshops, and training opportunities in AI applied to biomedicine, machine learning, multi-omics, and bioinformatics
