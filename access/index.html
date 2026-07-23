@@ -21,35 +21,6 @@
             padding: 20px;
         }
 
-        .language-toggle {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            display: flex;
-            gap: 10px;
-        }
-
-        .lang-btn {
-            padding: 8px 16px;
-            border: 2px solid white;
-            background: transparent;
-            color: white;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 14px;
-            transition: all 0.3s ease;
-        }
-
-        .lang-btn.active {
-            background: white;
-            color: #667eea;
-        }
-
-        .lang-btn:hover:not(.active) {
-            background: rgba(255, 255, 255, 0.1);
-        }
-
         .access-container {
             background: white;
             border-radius: 20px;
@@ -150,11 +121,6 @@
             box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
         }
 
-        .submit-btn:disabled {
-            opacity: 0.7;
-            cursor: not-allowed;
-        }
-
         .info-box {
             background: #f5f7ff;
             border-left: 4px solid #667eea;
@@ -178,21 +144,16 @@
     </style>
 </head>
 <body>
-    <div class="language-toggle">
-        <button class="lang-btn active" data-lang="en">EN</button>
-        <button class="lang-btn" data-lang="es">ES</button>
-    </div>
-
     <div class="access-container">
         <div class="header">
             <div class="name">Martha Isabel González Ramírez</div>
-            <h1 id="title">Hello & Welcome!</h1>
-            <p id="subtitle">To my website</p>
+            <h1>Hello & Welcome!</h1>
+            <p>To my website</p>
         </div>
 
-        <form id="accessForm" action="https://formspree.io/f/meeyrobk" method="POST">
+        <form method="POST" action="https://formspree.io/f/meeyrobk" accept-charset="UTF-8">
             <div class="form-group">
-                <label for="name" id="label-name">Full Name *</label>
+                <label for="name">Full Name *</label>
                 <input
                     type="text"
                     id="name"
@@ -203,7 +164,7 @@
             </div>
 
             <div class="form-group">
-                <label for="email" id="label-email">Email *</label>
+                <label for="email">Email *</label>
                 <input
                     type="email"
                     id="email"
@@ -213,63 +174,13 @@
                 />
             </div>
 
-            <button type="submit" class="submit-btn" id="submit-btn">Access My Research</button>
+            <button type="submit" class="submit-btn">Access My Research</button>
         </form>
 
         <div class="info-box">
-            <strong id="privacy-title">🔒 Privacy</strong><br>
-            <span id="privacy-text">Your information helps me connect with colleagues interested in my research.</span>
+            <strong>🔒 Privacy</strong><br>
+            Your information helps me connect with colleagues interested in my research.
         </div>
     </div>
-
-    <script>
-        const translations = {
-            en: {
-                title: "Hello & Welcome!",
-                subtitle: "To my website",
-                labelName: "Full Name *",
-                placeholderName: "Your full name",
-                labelEmail: "Email *",
-                submitBtn: "Access My Research",
-                privacyTitle: "🔒 Privacy",
-                privacyText: "Your information helps me connect with colleagues interested in my research."
-            },
-            es: {
-                title: "¡Hola y Bienvenido!",
-                subtitle: "A mi sitio web",
-                labelName: "Nombre Completo *",
-                placeholderName: "Tu nombre completo",
-                labelEmail: "Email *",
-                submitBtn: "Acceder a mi Investigación",
-                privacyTitle: "🔒 Privacidad",
-                privacyText: "Tu información me ayuda a conectar con colegas interesados en mi investigación."
-            }
-        };
-
-        let currentLanguage = 'en';
-
-        document.querySelectorAll('.lang-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                currentLanguage = btn.dataset.lang;
-                updateLanguage();
-            });
-        });
-
-        function updateLanguage() {
-            const t = translations[currentLanguage];
-            document.getElementById('title').textContent = t.title;
-            document.getElementById('subtitle').textContent = t.subtitle;
-            document.getElementById('label-name').textContent = t.labelName;
-            document.getElementById('name').placeholder = t.placeholderName;
-            document.getElementById('label-email').textContent = t.labelEmail;
-            document.getElementById('submit-btn').textContent = t.submitBtn;
-            document.getElementById('privacy-title').textContent = t.privacyTitle;
-            document.getElementById('privacy-text').textContent = t.privacyText;
-        }
-
-        updateLanguage();
-    </script>
 </body>
 </html>
