@@ -32,7 +32,8 @@ I specialize in **genomics, machine learning, and computational biology** with a
 I'm available for academic collaborations including:
 
 - **Secondary Education Partnerships**: Collaborating with high schools and educational institutions on STEM outreach, research education, and career mentorship
-- **Adjunct Professor/Lecturer**: Teaching specialized courses in biomedical informatics, genomics, machine learning, and research methods
+- **Bioinformatics Courses**: Contributing to or co-developing specialized courses in bioinformatics, computational genomics, and data analysis
+- **Machine Learning in Biology**: Participating in specialized courses focused on machine learning applications in biomedical research
 - **Research Assistant Supervision**: Mentoring and training undergraduate and graduate students in genomics research
 - **Curriculum Development**: Co-designing science curricula that integrate research, equity, and community engagement
 - **Educational Seminars & Workshops**: Delivering lectures on genomics, data science, research methodology, and scientific communication
