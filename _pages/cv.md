@@ -85,10 +85,10 @@ Publications
 
 Peer Review
 ======
-* Metabolism (Elsevier). ISSN: 1532-8600 — 1 paper reviewed (2025)
-* Cancer Research Journal (SciencesPG). ISSN: 2330-8214 — 2 papers reviewed (2025-2026)
-* Gene Reports (Elsevier). ISSN: 2452-0144 — 1 paper reviewed (2021)
-* Ciencia e Innovación en Salud. ISSN: 2344-8636 — 1 paper reviewed (2021)
+* Metabolism (Elsevier). ISSN: 1532-8600 (2025)
+* Cancer Research Journal (SciencesPG). ISSN: 2330-8214 (2025-2026)
+* Gene Reports (Elsevier). ISSN: 2452-0144 (2021)
+* Ciencia e Innovación en Salud. ISSN: 2344-8636 (2021)
 
 Talks
 ======
