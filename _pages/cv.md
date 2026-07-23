@@ -98,11 +98,11 @@ Talks
 
 Professional Organizations
 ======
-* American Association for Cancer Research (AACR), US - Associate Member, 2019-present
-* International Papillomavirus Society (IPVS) - Member, 2021-present
-* American Society for Bone and Mineral Research (ASBMR), US - Member, 2025-present
-* American Society of Human Genetics (ASHG), USA - Member, 2025-present
-* Colombian Ministry of Science, Technology, and Innovation (MinCiencias) - Recognized Junior Researcher, 2022-present
+* American Association for Cancer Research (AACR) - Associate Member
+* International Papillomavirus Society (IPVS) - Member
+* American Society for Bone and Mineral Research (ASBMR) - Member
+* American Society of Human Genetics (ASHG) - Member
+* Colombian Ministry of Science, Technology, and Innovation (MinCiencias) - Recognized Junior Researcher
 
 Courses, Seminars, and Webinars Attended
 ======
