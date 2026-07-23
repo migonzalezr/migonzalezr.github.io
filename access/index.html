@@ -121,6 +121,40 @@
             box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
         }
 
+        .success-box {
+            text-align: center;
+            display: none;
+        }
+
+        .success-box h2 {
+            color: #667eea;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .success-box p {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .enter-btn {
+            display: inline-block;
+            padding: 14px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .enter-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
         .info-box {
             background: #f5f7ff;
             border-left: 4px solid #667eea;
@@ -151,37 +185,58 @@
             <p>To my website</p>
         </div>
 
-        <form method="POST" action="https://formspree.io/f/meeyrobk" accept-charset="UTF-8">
-            <div class="form-group">
-                <label for="name">Full Name *</label>
-                <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Your full name"
-                    required
-                />
+        <div id="formContainer">
+            <form method="POST" action="https://formspree.io/f/meeyrobk" accept-charset="UTF-8">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your full name"
+                        required
+                    />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="your@email.com"
+                        required
+                    />
+                </div>
+
+                <input type="hidden" name="_next" value="https://migonzalezr.github.io/access/thanks">
+                <button type="submit" class="submit-btn">Access My Research</button>
+            </form>
+
+            <div class="info-box">
+                <strong>🔒 Privacy</strong><br>
+                Your information helps me connect with colleagues interested in my research.
             </div>
+        </div>
 
-            <div class="form-group">
-                <label for="email">Email *</label>
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="your@email.com"
-                    required
-                />
-            </div>
-
-            <input type="hidden" name="_next" value="https://migonzalezr.github.io/">
-            <button type="submit" class="submit-btn">Access My Research</button>
-        </form>
-
-        <div class="info-box">
-            <strong>🔒 Privacy</strong><br>
-            Your information helps me connect with colleagues interested in my research.
+        <div id="successContainer" class="success-box">
+            <h2>✓ Welcome!</h2>
+            <p>Thank you for your information. Entering your site now...</p>
+            <a href="https://migonzalezr.github.io/" class="enter-btn">Click here to enter my site</a>
         </div>
     </div>
+
+    <script>
+        // Check if this is the thanks page
+        if (window.location.pathname.includes('thanks')) {
+            document.getElementById('formContainer').style.display = 'none';
+            document.getElementById('successContainer').style.display = 'block';
+            
+            // Auto redirect after 3 seconds
+            setTimeout(() => {
+                window.location.href = 'https://migonzalezr.github.io/';
+            }, 3000);
+        }
+    </script>
 </body>
 </html>
