@@ -259,18 +259,7 @@
             </div>
 
             <div class="form-group">
-                <label for="affiliation" id="label-affiliation">Affiliation *</label>
-                <input
-                    type="text"
-                    id="affiliation"
-                    name="affiliation"
-                    placeholder="University, institution or company"
-                    required
-                />
-            </div>
-
-            <div class="form-group">
-                <label for="email" id="label-email">Contact Email *</label>
+                <label for="email" id="label-email">Email *</label>
                 <input
                     type="email"
                     id="email"
@@ -284,17 +273,17 @@
 
             <div class="loading" id="loading">
                 <span class="spinner"></span>
-                <span id="loading-text">Sending information...</span>
+                <span id="loading-text">Sending...</span>
             </div>
 
             <div class="success-message" id="successMessage">
-                <span id="success-text">✓ Confirmation email sent! Check your inbox.</span>
+                <span id="success-text">✓ Welcome! Redirecting...</span>
             </div>
         </form>
 
         <div class="info-box">
-            <strong id="privacy-title">🔒 Your Privacy Matters</strong><br>
-            <span id="privacy-text">Your information will be used only to contact you about collaboration and research opportunities.</span>
+            <strong id="privacy-title">🔒 Privacy</strong><br>
+            <span id="privacy-text">Your information helps me connect with colleagues interested in my research.</span>
         </div>
     </div>
 
@@ -305,42 +294,38 @@
                 subtitle: "To my website",
                 labelName: "Full Name *",
                 placeholderName: "Your full name",
-                labelAffiliation: "Affiliation *",
-                placeholderAffiliation: "University, institution or company",
-                labelEmail: "Contact Email *",
+                labelEmail: "Email *",
+                placeholderEmail: "your@email.com",
                 submitBtn: "Access My Research",
-                loadingText: "Sending information...",
-                successText: "✓ Confirmation email sent! Check your inbox.",
-                privacyTitle: "🔒 Your Privacy Matters",
-                privacyText: "Your information will be used only to contact you about collaboration and research opportunities."
+                loadingText: "Sending...",
+                successText: "✓ Welcome! Redirecting...",
+                privacyTitle: "🔒 Privacy",
+                privacyText: "Your information helps me connect with colleagues interested in my research."
             },
             es: {
                 title: "¡Hola y Bienvenido!",
                 subtitle: "A mi sitio web",
                 labelName: "Nombre Completo *",
                 placeholderName: "Tu nombre completo",
-                labelAffiliation: "Afiliación *",
-                placeholderAffiliation: "Universidad, institución o empresa",
-                labelEmail: "Correo de Contacto *",
+                labelEmail: "Email *",
+                placeholderEmail: "tu@email.com",
                 submitBtn: "Acceder a mi Investigación",
-                loadingText: "Enviando información...",
-                successText: "✓ ¡Email de confirmación enviado! Revisa tu bandeja.",
-                privacyTitle: "🔒 Tu Privacidad es Importante",
-                privacyText: "Tu información será utilizada únicamente para contactarte sobre oportunidades de colaboración e investigación."
+                loadingText: "Enviando...",
+                successText: "✓ ¡Bienvenido! Redirigiendo...",
+                privacyTitle: "🔒 Privacidad",
+                privacyText: "Tu información me ayuda a conectar con colegas interesados en mi investigación."
             }
         };
 
         let currentLanguage = 'en';
-        const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzwh-bZTkMt5xOlECyCR7Elzwy_EM1SWKiaXmNFFe-USkdq8WlLR2DZf3cOXNgy5-Sm/exec";
+        const SHEET_ID = "1km373-fewdsAOC6QNxOMar_8kzl01zqwVxggI88Gktc";
 
         const form = document.getElementById('accessForm');
         const loading = document.getElementById('loading');
         const successMessage = document.getElementById('successMessage');
         const nameInput = document.getElementById('name');
-        const affiliationInput = document.getElementById('affiliation');
         const emailInput = document.getElementById('email');
 
-        // Language toggle
         document.querySelectorAll('.lang-btn').forEach(btn => {
             btn.addEventListener('click', () => {
                 document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
@@ -356,9 +341,8 @@
             document.getElementById('subtitle').textContent = t.subtitle;
             document.getElementById('label-name').textContent = t.labelName;
             nameInput.placeholder = t.placeholderName;
-            document.getElementById('label-affiliation').textContent = t.labelAffiliation;
-            affiliationInput.placeholder = t.placeholderAffiliation;
             document.getElementById('label-email').textContent = t.labelEmail;
+            emailInput.placeholder = t.placeholderEmail;
             document.getElementById('submit-btn').textContent = t.submitBtn;
             document.getElementById('loading-text').textContent = t.loadingText;
             document.getElementById('success-text').textContent = t.successText;
@@ -369,8 +353,8 @@
         form.addEventListener('submit', async (e) => {
             e.preventDefault();
 
-            if (!nameInput.value.trim() || !affiliationInput.value.trim() || !emailInput.value.trim()) {
-                alert(currentLanguage === 'en' ? 'Please complete all fields' : 'Por favor completa todos los campos');
+            if (!nameInput.value.trim() || !emailInput.value.trim()) {
+                alert(currentLanguage === 'en' ? 'Please fill all fields' : 'Por favor completa todos los campos');
                 return;
             }
 
@@ -378,56 +362,34 @@
             form.querySelector('.submit-btn').disabled = true;
 
             try {
-                console.log('Sending request to:', APPS_SCRIPT_URL);
-
-                const response = await fetch(APPS_SCRIPT_URL, {
+                const response = await fetch('https://sheets.googleapis.com/v4/spreadsheets/' + SHEET_ID + '/values/Sheet1:append?key=AIzaSyCXHs0tLJW0Q5iWgbVUwVSn7vC7G6FmINU', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
                     },
                     body: JSON.stringify({
-                        name: nameInput.value,
-                        affiliation: affiliationInput.value,
-                        email: emailInput.value,
-                        language: currentLanguage
+                        values: [[nameInput.value, emailInput.value, new Date().toLocaleString()]]
                     })
                 });
 
-                console.log('Response status:', response.status);
-                const result = await response.json();
-                console.log('Response result:', result);
-
-                if (result.success) {
+                if (response.ok) {
                     loading.style.display = 'none';
                     successMessage.classList.add('show');
                     form.style.opacity = '0.5';
 
-                    localStorage.setItem('accessEmail', emailInput.value);
-
                     setTimeout(() => {
                         window.location.href = '/';
-                    }, 3000);
+                    }, 2000);
                 } else {
-                    throw new Error(result.message || 'Server returned error');
+                    throw new Error('Error saving data');
                 }
             } catch (error) {
                 loading.style.display = 'none';
                 form.querySelector('.submit-btn').disabled = false;
-                console.error('Full error object:', error);
-                console.error('Error name:', error.name);
-                console.error('Error message:', error.message);
-
-                const errorMsg = error.message || 'Unknown error';
-                alert(currentLanguage === 'en'
-                    ? `Error: ${errorMsg}\n\nOpen browser console (F12) for details.`
-                    : `Error: ${errorMsg}\n\nAbre la consola del navegador (F12) para más detalles.`);
+                alert(currentLanguage === 'en' ? 'Error. Try again.' : 'Error. Intenta de nuevo.');
+                console.error('Error:', error);
             }
         });
-
-        // Check if already confirmed
-        if (localStorage.getItem('accessEmail')) {
-            window.location.href = '/';
-        }
 
         updateLanguage();
     </script>
