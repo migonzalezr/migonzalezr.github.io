@@ -110,6 +110,13 @@ Professional Organizations
 * Association of American Medical Colleges (AAMC) - Member, Community of Artificial Intelligence in Health Professions Education
 
 
+
+Professional Certificates and Diplomas
+======
+* Certificate Program: Data Analysis and Machine Learning in Python. University of Antioquia, Medellín, Colombia. 2022–2023 (90h)
+* Nanodegree: AI Programming with Python. Udacity. 2023 (4 months)
+* Certification: Research Coordinator Program Level I. Louisiana Clinical & Translational Science Center (LA CaTS), Tulane University, USA. 2024 (8h)
+* Certification: Basic Life Support (BLS — CPR & AED). American Heart Association. Issued Nov 2024, valid until Nov 2026
 Courses, Seminars, and Webinars Attended
 ======
 * AI/ML for Genetics, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2026, 20h)
