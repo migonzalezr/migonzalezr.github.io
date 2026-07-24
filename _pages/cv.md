@@ -18,6 +18,7 @@ Education
 
 Honors, Awards, and Scholarships
 ======
+* Tuition and Housing Scholarship, Bruce Weir Summer Institute in Statistical Genetics, Georgia Institute of Technology, Atlanta, USA (2026)
 * Graduate and Professional Student Mentorship Program Award, Tulane University, USA (2025)
 * UK Biobank Transitional Credit Award for RAP Computational Access, Wellcome, United Kingdom (2025)
 * Tuition and Housing Scholarship & Travel Award, Bruce Weir Summer Institute in Statistical Genetics, Georgia Institute of Technology, Atlanta, USA (2024)
