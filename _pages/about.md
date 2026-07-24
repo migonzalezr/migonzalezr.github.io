@@ -7,6 +7,23 @@ redirect_from:
   - /about.html
 ---
 
+<!-- Language Toggle Button -->
+<div style="text-align: right; margin-bottom: 20px;">
+  <button id="langToggle" onclick="toggleLanguage()" style="
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+  ">Español / Spanish</button>
+</div>
+
+<!-- English Content -->
+<div id="englishContent">
+
 <div style="background-color:#fff8e1; border-left:4px solid #f0ad4e; padding:15px 20px; margin-bottom:25px; border-radius:4px;">
 <strong>👋 Welcome, and thanks for visiting!</strong><br>
 This site is still under construction, and a few things are still being polished, but I'm so happy to have you here. Any questions, feel free to <a href="mailto:migonzalezr23@gmail.com?subject=Hello%20from%20your%20website">email me here</a>!
@@ -43,3 +60,77 @@ Selected Recognition
 Get in Touch
 ======
 I welcome collaboration opportunities in computational medicine prediction, multi-omics research, and precision medicine. Please reach out only via [email](mailto:migonzalezr23@gmail.com) or [LinkedIn](https://www.linkedin.com/in/migonzalezr), or feel free to [book a meeting directly](https://bookings.cloud.microsoft/bookwithme/user/f77f1615149049298cc38f687a23d354%40tulane.edu?anonymous&ismsaljsauthenabled) so we can meet each other.
+
+</div>
+
+<!-- Spanish Content (Hidden by default) -->
+<div id="spanishContent" style="display: none;">
+
+<div style="background-color:#fff8e1; border-left:4px solid #f0ad4e; padding:15px 20px; margin-bottom:25px; border-radius:4px;">
+<strong>👋 ¡Bienvenida, y gracias por visitar!</strong><br>
+Este sitio aún está en construcción, y estoy puliendo algunos detalles, pero estoy muy feliz de tenerte aquí. Si tienes alguna pregunta, no dudes en <a href="mailto:migonzalezr23@gmail.com?subject=Hello%20from%20your%20website">escribirme aquí</a>.
+</div>
+
+Sobre Mí
+======
+Soy candidata a PhD en Informática Biomédica en la División de Informática Biomédica y Genómica de la Universidad de Tulane, en Nueva Orleans, bajo la dirección del [Dr. Hong-Wen Deng](https://scholar.google.com/citations?user=YC76bh8AAAAJ&hl=en). Mi investigación integra datos de multi-ómicas (genómica, metagenómica y variables clínicas) con aprendizaje automático para construir modelos interpretables y aplicables clínicamente para la predicción de osteoporosis y densidad mineral ósea. Una preocupación central en mi trabajo es cerrar las brechas clave en el campo: llevar los modelos de riesgo genómico y multi-ómico más allá de entornos de investigación hacia herramientas reales e implementables clínicamente. Quiero que estas herramientas sean equitativas y que funcionen adecuadamente en poblaciones diversas, incluyendo grupos históricamente subrepresentados en estudios de descubrimiento genético, para que los beneficios de la medicina de precisión lleguen a todos y no solo a las poblaciones donde se hicieron los descubrimientos originales.
+
+Mi trayectoria investigativa comenzó en el Grupo de Investigación en Infección y Cáncer de la Universidad de Antioquia, dirigido por la [Dra. Gloria Sánchez](https://scholar.google.com/citations?user=grosxiQAAAAJ&hl=en), donde trabajé en predicción con aprendizaje automático e interpretación biológica de biomarcadores relacionados con VPH. Con esa base, tuvimos el honor de coordinar un programa de investigación nacional en Colombia, financiado por una beca del Ministerio de Ciencia, Tecnología e Innovación (MinCiencias), enfocado en identificar biomarcadores de microARN para la detección temprana del cáncer cervical. El programa se desarrolló en dos proyectos: el primero identificó biomarcadores diagnósticos en muestras de tejido FFPE (formaldehído-fijado, incluido en parafina), y el segundo extendió este trabajo a muestras cervicales exfoliadas. En conjunto, estos hallazgos se consolidaron en un secreto empresarial formalmente respaldado para protección de propiedad intelectual. También completé entrenamientos en investigación en el Centro de Ciencias de la Salud de LSU (USA) y en el Centro Médico Universitario de Groningen (Países Bajos). Mi trabajo fusiona bioestadística, biología computacional y oncología traslacional, con énfasis en rigor científico, mentoría y colaboración abierta.
+
+Intereses de Investigación
+======
+* Integración de datos multi-ómicas (genómica, metagenómica)
+* Aprendizaje automático para predicción de riesgo de enfermedades
+* Oncología traslacional y biomarcadores de cáncer
+* Genómica de osteoporosis y densidad mineral ósea
+* Transcriptómica (microARN y ARNm)
+* GWAS y modelos genéticos conscientes de ascendencia
+* Escritura de propuestas y comunicación científica
+
+Educación
+======
+* PhD en Informática Biomédica, Universidad de Tulane (esperado 2028)
+* Maestría en Ciencias Biomédicas, Universidad de Antioquia, Colombia (2020)
+* Ingeniería en Ingeniería Biológica, Universidad Nacional de Colombia (2017)
+
+Reconocimiento Selecto
+======
+* Beca de Asociado, Programa de Ciencias Biomédicas, Escuela de Medicina de la Universidad de Tulane (2023)
+* Beca del Programa de Talentos Abel Tasman (ATTP), Centro Médico Universitario de Groningen (2019)
+* Premio Nacional de Talento de Mujeres Jóvenes en STEM, Medellín, Colombia (2016)
+
+Ponte en Contacto
+======
+Me encanta colaborar en predicción en medicina computacional, investigación en multi-ómicas y medicina de precisión. Por favor, comunícate conmigo solo por [correo electrónico](mailto:migonzalezr23@gmail.com) o [LinkedIn](https://www.linkedin.com/in/migonzalezr), o siéntete libre de [agendar una reunión directamente](https://bookings.cloud.microsoft/bookwithme/user/f77f1615149049298cc38f687a23d354%40tulane.edu?anonymous&ismsaljsauthenabled) para que nos conozcamos.
+
+</div>
+
+<script>
+  function toggleLanguage() {
+    const englishContent = document.getElementById('englishContent');
+    const spanishContent = document.getElementById('spanishContent');
+    const langToggle = document.getElementById('langToggle');
+    
+    if (englishContent.style.display === 'none') {
+      englishContent.style.display = 'block';
+      spanishContent.style.display = 'none';
+      langToggle.textContent = 'Español / Spanish';
+      localStorage.setItem('siteLanguage', 'en');
+    } else {
+      englishContent.style.display = 'none';
+      spanishContent.style.display = 'block';
+      langToggle.textContent = 'English / Inglés';
+      localStorage.setItem('siteLanguage', 'es');
+    }
+  }
+  
+  // Load user's language preference on page load
+  window.addEventListener('DOMContentLoaded', function() {
+    const savedLanguage = localStorage.getItem('siteLanguage');
+    if (savedLanguage === 'es') {
+      document.getElementById('englishContent').style.display = 'none';
+      document.getElementById('spanishContent').style.display = 'block';
+      document.getElementById('langToggle').textContent = 'English / Inglés';
+    }
+  });
+</script>
