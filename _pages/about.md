@@ -100,7 +100,7 @@ Mi trayectoria investigativa comenzó en el Grupo de Investigación en Infecció
 * Integración de datos multi-ómicas
 * Aprendizaje automático para predicción de riesgo de enfermedades
 * Oncología traslacional y biomarcadores de cáncer
-* Densidad mineral ósea/ Osteoporosis/ Fracturas genómica
+* Genómica de Densidad mineral ósea/ Osteoporosis/ Fracturas
 * Transcriptómica (microARN y ARNm)
 * GWAS y modelos genéticos conscientes de ascendencia
 * Escritura de propuestas y comunicación científica
