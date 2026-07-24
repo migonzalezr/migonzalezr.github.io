@@ -36,7 +36,7 @@ Research Experience
 ======
 * Research Assistant, Biomedical Informatics, Division of Biomedical Informatics & Genomics, Tulane University, New Orleans, LA (2025 - present)
 * Co-Investigator, National Grant, Ministry of Sciences & University of Antioquia, Colombia (2020 - 2024)
-* Graduate Research Intern, Translational Genomics Core, LSU Health Sciences Center, New Orleans, LA (2021)
+* Graduate Research Intern, Translational Genomics Core, LSU Health Sciences Center, New Orleans, LA (2019; 2021)
 * Graduate Young Research, Ministry of Sciences & University of Antioquia, Colombia (2019 - 2020)
 * Graduate Research Intern, Department of Pathology, University Medical Center Groningen, NL (2019)
 * Research Intern, Infection and Cancer Research Group, University of Antioquia, Medellín, Colombia (2016 - 2017)
