@@ -59,6 +59,8 @@ I can support with:
 
 ## Let's Connect
 
-I'm open to meaningful research collaborations and academic partnerships that align with my passion for rigorous science, innovation, and equitable research practices. Whether you're an academic institution, research organization, educational initiative, or healthcare system, I'd love to explore how we can work together.
+I'm passionate about collaborative science that drives innovation, builds equitable pathways in research, and develops the next generation of talented scientists. Whether you represent an academic institution, research organization, educational initiative, healthcare system, or any organization committed to advancing science with purpose, I'd genuinely love to explore how we can work together.
 
-**Interested in collaborating?** Feel free to reach out via [email](mailto:migonzalezr23@gmail.com) with your ideas and vision for partnership.
+I believe the most meaningful research happens when we bring together diverse perspectives, shared vision, and a commitment to creating opportunities for everyone. If you're looking for a research collaborator, academic partner, or someone to help shape your team's scientific direction and impact, I'm here to have that conversation.
+
+**Let's build something meaningful together.** Feel free to reach out via [email](mailto:migonzalezr23@gmail.com) with your ideas, vision, and how you imagine collaboration unfolding. I look forward to connecting with you.
