@@ -107,7 +107,7 @@ Professional Organizations
 * National Cancer Research Network, Instituto Nacional de Cancerología, Colombia - Researcher Member
 * Colombian Network of Women Scientists - Titular Member
 * Group on Women in Medicine and Science (GWIMS), Tulane University - Member
-* Association of American Medical Colleges (AAMC) - Member
+* Association of American Medical Colleges (AAMC) - Member, Community of Artificial Intelligence in Health Professions Education
 
 
 Courses, Seminars, and Webinars Attended
