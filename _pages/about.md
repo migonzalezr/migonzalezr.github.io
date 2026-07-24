@@ -56,7 +56,7 @@ My research trajectory began at the Infection and Cancer Research Group at the U
 
 ## Research Interests
 
-* Multi-omics data integration (genomics, metagenomics)
+* Multi-omics data integration
 * Machine learning for disease risk prediction
 * Translational oncology and cancer biomarkers
 * Osteoporosis genomics and bone mineral density
