@@ -85,7 +85,7 @@ I welcome collaboration opportunities in computational medicine prediction, mult
 <div id="spanishContent" class="lang-content hidden" markdown="1">
 
 <div style="background-color:#fff8e1; border-left:4px solid #f0ad4e; padding:15px 20px; margin-bottom:25px; border-radius:4px;">
-<strong>👋 ¡Bienvenida, y gracias por visitar!</strong><br>
+<strong>👋 ¡Bienvenido (a), y gracias por visitar!</strong><br>
 Este sitio aún está en construcción, y estoy puliendo algunos detalles, pero estoy muy feliz de tenerte aquí. Si tienes alguna pregunta, no dudes en <a href="mailto:migonzalezr23@gmail.com?subject=Hello%20from%20your%20website">escribirme aquí</a>.
 </div>
 
