@@ -7,10 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-<!-- Language Toggle Button -->
-<div style="text-align: right; margin-bottom: 20px;">
-  <button id="langToggle" onclick="toggleLanguage()" style="
-    padding: 8px 16px;
+<style>
+  #langToggle {
+    position: fixed;
+    top: 120px;
+    right: 20px;
+    padding: 10px 18px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     border: none;
@@ -18,8 +20,18 @@ redirect_from:
     cursor: pointer;
     font-weight: 600;
     font-size: 14px;
-  ">Español / Spanish</button>
-</div>
+    z-index: 999;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+  }
+  
+  #langToggle:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  }
+</style>
+
+<button id="langToggle" onclick="toggleLanguage()">🌐 Español</button>
 
 <!-- English Content -->
 <div id="englishContent">
@@ -91,7 +103,7 @@ Educación
 ======
 * PhD en Informática Biomédica, Universidad de Tulane (esperado 2028)
 * Maestría en Ciencias Biomédicas, Universidad de Antioquia, Colombia (2020)
-* Ingeniería en Ingeniería Biológica, Universidad Nacional de Colombia (2017)
+* Ingeniería Biológica, Universidad Nacional de Colombia (2017)
 
 Reconocimiento Selecto
 ======
@@ -114,12 +126,12 @@ Me encanta colaborar en predicción en medicina computacional, investigación en
     if (englishContent.style.display === 'none') {
       englishContent.style.display = 'block';
       spanishContent.style.display = 'none';
-      langToggle.textContent = 'Español / Spanish';
+      langToggle.textContent = '🌐 Español';
       localStorage.setItem('siteLanguage', 'en');
     } else {
       englishContent.style.display = 'none';
       spanishContent.style.display = 'block';
-      langToggle.textContent = 'English / Inglés';
+      langToggle.textContent = '🌐 English';
       localStorage.setItem('siteLanguage', 'es');
     }
   }
@@ -130,7 +142,7 @@ Me encanta colaborar en predicción en medicina computacional, investigación en
     if (savedLanguage === 'es') {
       document.getElementById('englishContent').style.display = 'none';
       document.getElementById('spanishContent').style.display = 'block';
-      document.getElementById('langToggle').textContent = 'English / Inglés';
+      document.getElementById('langToggle').textContent = '🌐 English';
     }
   });
 </script>
