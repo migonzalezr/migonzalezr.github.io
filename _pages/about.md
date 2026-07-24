@@ -41,7 +41,7 @@ redirect_from:
 
 <button id="langToggle" onclick="toggleLanguage()">🌐 Español</button>
 
-<div id="englishContent" class="lang-content">
+<div id="englishContent" class="lang-content" markdown="1">
 
 <div style="background-color:#fff8e1; border-left:4px solid #f0ad4e; padding:15px 20px; margin-bottom:25px; border-radius:4px;">
 <strong>👋 Welcome, and thanks for visiting!</strong><br>
@@ -82,7 +82,7 @@ I welcome collaboration opportunities in computational medicine prediction, mult
 
 </div>
 
-<div id="spanishContent" class="lang-content hidden">
+<div id="spanishContent" class="lang-content hidden" markdown="1">
 
 <div style="background-color:#fff8e1; border-left:4px solid #f0ad4e; padding:15px 20px; margin-bottom:25px; border-radius:4px;">
 <strong>👋 ¡Bienvenida, y gracias por visitar!</strong><br>
