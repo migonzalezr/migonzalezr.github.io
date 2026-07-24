@@ -9,6 +9,21 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    
+    <!-- Access Gate Redirect Script -->
+    <script>
+      // Check if user has confirmed email via access gate
+      // Redirect to /access/ if not confirmed and not already on access page
+      (function() {
+        var currentPath = window.location.pathname;
+        var isAccessPage = currentPath === '/access/' || currentPath.endsWith('/access/index.html');
+        var isAccessConfirmed = localStorage.getItem('accessEmail');
+        
+        if (!isAccessPage && !isAccessConfirmed) {
+          window.location.href = '/access/';
+        }
+      })();
+    </script>
   </head>
 
   <body>
