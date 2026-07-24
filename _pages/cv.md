@@ -99,34 +99,16 @@ Talks
 
 Professional Organizations
 ======
-* American Association for Cancer Research (AACR) - Associate Member
-* International Papillomavirus Society (IPVS) - Member
-* American Society for Bone and Mineral Research (ASBMR) - Member
-* American Society of Human Genetics (ASHG) - Member
-* Colombian Ministry of Science, Technology, and Innovation (MinCiencias) - Recognized Junior Researcher and Peer Evaluator of Science, Technology, and Innovation Projects
-* National Cancer Research Network, Instituto Nacional de Cancerología, Colombia - Researcher Member
-* Colombian Network of Women Scientists - Titular Member
-* Group on Women in Medicine and Science (GWIMS), Tulane University - Member
-* Association of American Medical Colleges (AAMC) - Member, Community of Artificial Intelligence in Health Professions Education
 
-
-
-Courses, Seminars, and Webinars Attended
+Professional Certificates and Diplomas
 ======
 * Certificate Program: Data Analysis and Machine Learning in Python. University of Antioquia, Medellín, Colombia. 2022–2023 (90h)
 * Nanodegree: AI Programming with Python. Udacity. 2023 (4 months)
 * Certification: Research Coordinator Program Level I. Louisiana Clinical & Translational Science Center (LA CaTS), Tulane University, USA. 2024 (8h)
 * Certification: Basic Life Support (BLS — CPR & AED). American Heart Association. Issued Nov 2024, valid until Nov 2026
-* AI/ML for Genetics, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2026, 20h)
-* Whole Genome Sequence Analysis, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2026, 20h)
-* Regression and Regularization, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2026, 20h)
-* Analysis of Amplicons with DADA2 in R, ININAM, Lima, Perú (2024, 8h)
-* Shotgun Metagenomics in KBASE, ININAM, Lima, Perú (2024, 8h)
-* Epigenetics and Gene Regulation, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2024, 20h)
-* Gene Expression and Single Cell Genomics, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2024, 20h)
-* Association Mapping, Bruce Weir Summer Institute in Statistical Genetics, Georgia Tech, USA (2024, 20h)
-* Fundamentals in Deep Learning (Workshop), NVIDIA, USA (2024, 8h)
-* Strategy Writing and Publishing Scientific Articles in High-Impact Journals, CCBB, UdeA, Medellín, Colombia (2023, 24h)
+
+Courses, Seminars, and Webinars Attended
+======
 * Conflict of Interest (Training), CITI Program (2023, 4h)
 * Biomedical Research Investigators and Key Personnel (Training), CITI Program (2023, 4h)
 * Patents, Searching Technological Information (Workshop), CCBB, UdeA, Medellín, Colombia (2022, 8h)
