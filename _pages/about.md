@@ -78,7 +78,7 @@ My research trajectory began at the Infection and Cancer Research Group at the U
 
 ## Get in Touch
 
-I welcome collaboration opportunities in computational medicine prediction, multi-omics research, and precision medicine. Please reach out only via [email](mailto:migonzalezr23@gmail.com) or [LinkedIn](https://www.linkedin.com/in/migonzalezr), or feel free to [book a meeting directly](https://bookings.cloud.microsoft/bookwithme/user/f77f1615149049298cc38f687a23d354%40tulane.edu?anonymous&ismsaljsauthenabled) so we can meet each other.
+I welcome collaboration opportunities in computational medicine prediction, multi-omics research, and precision medicine. Feel free to reach out via [email](mailto:migonzalezr23@gmail.com) or [LinkedIn](https://www.linkedin.com/in/migonzalezr), or [book a meeting directly](https://bookings.cloud.microsoft/bookwithme/user/f77f1615149049298cc38f687a23d354%40tulane.edu?anonymous&ismsaljsauthenabled).
 
 </div>
 
@@ -119,7 +119,7 @@ Mi trayectoria investigativa comenzó en el Grupo de Investigación en Infecció
 
 ## Ponte en Contacto
 
-Me encanta colaborar en predicción en medicina computacional, investigación en multi-ómicas y medicina de precisión. Por favor, comunícate conmigo solo por [correo electrónico](mailto:migonzalezr23@gmail.com) o [LinkedIn](https://www.linkedin.com/in/migonzalezr), o siéntete libre de [agendar una reunión directamente](https://bookings.cloud.microsoft/bookwithme/user/f77f1615149049298cc38f687a23d354%40tulane.edu?anonymous&ismsaljsauthenabled) para que nos conozcamos.
+Me encanta colaborar en predicción en medicina computacional, investigación en multi-ómicas y medicina de precisión. Siéntete libre de contactarme por [correo electrónico](mailto:migonzalezr23@gmail.com) o [LinkedIn](https://www.linkedin.com/in/migonzalezr), o [agenda una reunión directamente](https://bookings.cloud.microsoft/bookwithme/user/f77f1615149049298cc38f687a23d354%40tulane.edu?anonymous&ismsaljsauthenabled).
 
 </div>
 
