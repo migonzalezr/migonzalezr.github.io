@@ -108,6 +108,7 @@ Professional Organizations
 * Colombian Network of Women Scientists - Titular Member
 * Group on Women in Medicine and Science (GWIMS), Tulane University - Member
 * Association of American Medical Colleges (AAMC) - Member, Community of Artificial Intelligence in Health Professions Education
+
 Professional Certificates and Diplomas
 ======
 * Certificate Program: Data Analysis and Machine Learning in Python. University of Antioquia, Medellín, Colombia. 2022–2023 (90h)
