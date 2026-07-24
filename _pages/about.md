@@ -97,10 +97,10 @@ Mi trayectoria investigativa comenzó en el Grupo de Investigación en Infecció
 
 ## Intereses de Investigación
 
-* Integración de datos multi-ómicas (genómica, metagenómica)
+* Integración de datos multi-ómicas
 * Aprendizaje automático para predicción de riesgo de enfermedades
 * Oncología traslacional y biomarcadores de cáncer
-* Genómica de osteoporosis y densidad mineral ósea
+* Densidad mineral ósea/ Osteoporosis/ Fracturas genómica
 * Transcriptómica (microARN y ARNm)
 * GWAS y modelos genéticos conscientes de ascendencia
 * Escritura de propuestas y comunicación científica
