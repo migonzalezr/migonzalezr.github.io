@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "mint"
-title                    : "Martha González-Ramírez"
+title                    : "Martha Isabel González-Ramírez"
 title_separator          : "-"
-name                     : &name "Martha González-Ramírez"
+name                     : &name "Martha Isabel González-Ramírez"
 description              : &description "PhD Candidate in Biomedical Informatics | Multi-omics & Machine Learning Research"
 url                      : https://migonzalezr.github.io
 baseurl                  : ""
@@ -19,7 +19,7 @@ repository               : "migonzalezr/migonzalezr.github.io"
 
 author:
   avatar             : "foto_medios.png"
-  name               : "Martha González-Ramírez"
+  name               : "Martha Isabel González-Ramírez"
   pronouns           : "she/her"
   bio                : "PhD Candidate in Biomedical Informatics at Tulane University. Researching multi-omics integration and machine learning for osteoporosis and cancer biomarker discovery."
   location           : "New Orleans, LA, USA"
