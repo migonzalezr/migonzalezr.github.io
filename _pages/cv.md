@@ -102,7 +102,12 @@ Professional Organizations
 * International Papillomavirus Society (IPVS) - Member
 * American Society for Bone and Mineral Research (ASBMR) - Member
 * American Society of Human Genetics (ASHG) - Member
-* Colombian Ministry of Science, Technology, and Innovation (MinCiencias) - Recognized Junior Researcher
+* Colombian Ministry of Science, Technology, and Innovation (MinCiencias) - Recognized Junior Researcher and Peer Evaluator of Science, Technology, and Innovation Projects
+* National Cancer Research Network, Instituto Nacional de Cancerología, Colombia - Researcher Member
+* Colombian Network of Women Scientists - Titular Member
+* Group on Women in Medicine and Science (GWIMS), Tulane University - Member
+* Association of American Medical Colleges (AAMC) - Member
+
 
 Courses, Seminars, and Webinars Attended
 ======
